@@ -1,0 +1,92 @@
+body{
+    margin:0px;
+}
+
+.tittle{
+    padding: 2px;
+    align-items: center;
+    color: #3d0505;
+    font-family: "Bradley Hand ITC", cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.C{
+    text-align: center; 
+}
+
+.C .plea {
+    color: #FF5733; /* Vivid Orange */
+    font-family: "Brush Script MT", cursive;
+    font-size: 40px;
+  }
+  .C .desperation {
+    color: #8B0000; /* Dark Red */
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 30px;
+  }
+  .C .nostalgia {
+    color: #6A5ACD; /* Slate Blue */
+    font-family: "Comic Sans MS", cursive;
+    font-size: 25px;
+  }
+  .C .hope {
+    color: #FFD700; /* Gold */
+    font-family: "Great Vibes", cursive; /* Elegant script font */
+    font-size: 30px;
+  }
+  .C .dependency {
+    color: #c23fc2; /* Steel Blue */
+    font-family: "Vivaldi", cursive;
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+  .C .hurt {
+    color: #800000; /* Maroon */
+    font-family: "Segoe Script", cursive;
+    font-size: 20px;
+  }
+  
+  .C .apology {
+    color: #8A2BE2; /* Blue Violet */
+    font-family: "Bradley Hand ITC", cursive;
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+  .C .realization {
+    color: #2E8B57; /* Sea Green */
+    font-family: "Palatino Linotype", serif; /* Elegant and traditional serif font */
+  }
+  .C .suffocation {
+    color: #4B0082; /* Indigo */
+    font-family: "Lucida Console", monospace; /* Clear and readable monospace font */
+  }
+  .C .denial {
+    color: #A0522D; /* Sienna */
+    font-family: "Trebuchet MS", sans-serif; /* Modern sans-serif font */
+  }
+  .C .acceptance {
+    color: #556B2F; /* Dark Olive Green */
+    font-size: 30px;
+    font-family: "Lucida Handwriting", cursive;
+  }
+  .C .acknowledgment {
+    color: #8FBC8F; /* Dark Sea Green */
+    font-family: "Garamond", serif; /* Classic serif font */
+    font-size: 20px;
+
+  }
+  .C .repetition {
+    color: #B22222; /* Fire Brick */
+    font-family: "Impact", sans-serif; /* Bold and impactful sans-serif font */
+    font-size: 30px;
+  }
+  .love{
+    font-family: 'MySignatureFont', cursive;
+    text-align: right;
+    
+
+  }
