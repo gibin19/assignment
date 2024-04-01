@@ -1,0 +1,223 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px; 
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #ffffff;
+    
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container img {
+    height: 130px;
+    width: auto;
+}
+
+/* This will apply the necessary box sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Styling for the navigation menu */
+nav {
+    text-align: center;
+}
+
+nav label {
+    display: block;
+}
+
+
+nav menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+nav menu li {
+    margin: 0 15px;
+}
+
+nav menu li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    transition: color 0.3s,background-color 0.3s;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+nav menu li a:hover, nav menu li a:focus {
+    color: #fff;
+    background-color: #007bff;
+}
+
+
+nav menu li a.active {
+    background-color: #0056b3;
+    color: white;
+}
+
+main {
+    
+    background-size: cover;
+    background-image: url('https://getwallpapers.com/wallpaper/full/0/6/f/1423229-lollipop-wallpaper-1920x1080-tablet.jpg');
+    background-position: center;
+    padding: 50px 20px;
+}
+
+.masthead {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@keyframes rainbow {
+    0% { color: red; }
+    16.666% { color: orange; }
+    33.333% { color: yellow; }
+    50% { color: rgb(182, 179, 20); }
+    66.666% { color: rgb(231, 19, 185); }
+    83.333% { color: indigo; }
+    100% { color: violet; }
+}
+
+.masthead h1 {
+    animation: rainbow 5s infinite;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.lollipop {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #d0f30a;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.lollipop:hover {
+    color: #ff6600;
+}
+
+.candy-types, .candy-types2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.candy-card {
+    width: 45%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.0);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.candy-card:hover {
+    background-image: url('https://i.kinja-img.com/gawker-media/image/upload/t_original/rzhezesyhrasi6kke3qt.jpg');
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: translateY(-5px);
+    transition: transform 0.10s ease-in-out; 
+}
+
+
+.candy-card:nth-child(odd) {
+    margin-left: 0;
+}
+
+.candy-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.lollipop-description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px; /* Adjust the font size */
+    line-height: 1.5; /* Adjust the line height */
+    color: #350f0f; /* Set the text color */
+    margin-bottom: 15px; /* Add margin at the bottom */
+}
+.about, .contact {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-logo img {
+    height: 100px;
+    width: auto;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-form input[type="text"],
+.footer-form input[type="email"],
+.footer-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-form input[type="submit"] {
+    background-color: #ff6b6b;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer-form input[type="submit"]:hover {
+    background-color: #ff4f4f;
+}
+
+.bottom-footer {
+    text-align: center;
+}
